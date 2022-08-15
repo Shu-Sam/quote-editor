@@ -1,0 +1,9 @@
+7672:C 15 Aug 2022 13:29:42.177 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+7672:C 15 Aug 2022 13:29:42.177 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=7672, just started
+7672:C 15 Aug 2022 13:29:42.177 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+7672:M 15 Aug 2022 13:29:42.177 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+7672:M 15 Aug 2022 13:29:42.177 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+7672:M 15 Aug 2022 13:29:42.177 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+7672:M 15 Aug 2022 13:29:42.177 * monotonic clock: POSIX clock_gettime
+7672:M 15 Aug 2022 13:29:42.177 # Warning: Could not create server TCP listening socket *:6379: bind: Address already in use
+7672:M 15 Aug 2022 13:29:42.177 # Failed listening on port 6379 (TCP), aborting.
