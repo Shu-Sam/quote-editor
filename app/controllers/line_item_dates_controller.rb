@@ -15,7 +15,7 @@ class LineItemDatesController < ApplicationController
         format.turbo_stream { flash.now[:notice] = "Date was successfully created!!!" }
       end  
     else
-      render :new, status: :unprocessable_entity
+      render :edit, status: :unprocessable_entity
     end
   end
 
